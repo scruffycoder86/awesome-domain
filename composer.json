@@ -1,0 +1,22 @@
+{
+	"name" : "scruffycoderofficial/awesome-domain",
+	"description" : "This package will offer varying services that can be used within any Content Management System anyhow",
+	"authors" : [{
+			"name" : "Luyanda Siko",
+			"email" : "luyandasiko@digital-closuxe.co.za"
+		}
+	],
+	"minimum-stability" : "dev",
+	"autoload" : {
+		"psr-4" : {
+			"Awesome\\Module\\Domain\\" : "src/"
+		}
+	},
+	"extra" : {
+		"laravel" : {
+			"providers" : [
+				"Awesome\\Module\\Domain\\Providers\\RouteServiceProvider"
+			]
+		}
+	}
+}
