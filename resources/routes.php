@@ -1,9 +1,5 @@
 <?php
 
-/**
- * This module's Domain with accessible Http-Based Service endpoints 
- */
-
-$router->group([ 'namespace' => 'Awesome\Module\Domain' ], function() use($router){
-    $router->get('/people', 'Http\Action\PersonsAction@index');
+$router->group([ 'prefix' => '/v1/api', 'namespace' => 'Awesome\Module\Domain\Http\Actions' ], function () use ($router) {
+    $router->get('/people',  ['uses' => 'PersonsAction@index']);
 });

@@ -1,6 +1,6 @@
 <?php
 
-namespace Awesome\Module\Domain\Http\Action;
+namespace Awesome\Module\Domain\Http\Actions;
 
 use Symfony\Component\HttpFoundation\JsonResponse;
 

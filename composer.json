@@ -15,7 +15,7 @@
 	"extra" : {
 		"laravel" : {
 			"providers" : [
-				"Awesome\\Module\\Domain\\Providers\\RouteServiceProvider"
+				"Awesome\\Module\\Domain\\Providers\\ModuleServiceProvider"
 			]
 		}
 	}
