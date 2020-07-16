@@ -2,7 +2,7 @@
 
 namespace Awesome\Module\Domain\Http\Actions;
 
-use Laravel\Lumen\Routing\Controller;
+use Awesome\Module\Domain\Http\Contracts\RoutingController;
 
 /**
  * ControllerAction
@@ -10,4 +10,4 @@ use Laravel\Lumen\Routing\Controller;
  * @author luyandasiko
  *
  */
-abstract class ControllerAction extends Controller{}
+abstract class ControllerAction implements RoutingController{}

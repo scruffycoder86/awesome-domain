@@ -18,5 +18,13 @@
 				"Awesome\\Module\\Domain\\Providers\\ModuleServiceProvider"
 			]
 		}
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "^9.3@dev",
+		"unicorn/lumen-testbench-core": "dev-master",
+		"mockery/mockery": "^1.4@dev",
+		"albertcht/lumen-testing": "dev-master"
+	},
+	"require": {
 	}
 }
